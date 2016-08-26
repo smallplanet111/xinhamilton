@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Grand+Hotel');
+.font-grand-hotel {
+  font-family: 'Grand Hotel', cursive;
+}
+.navbar-header .name {
+  font-family: 'Grand Hotel', cursive;
+  font-size: 28px;
+  margin-top: 9px;
+  height: initial;
+}
+.modal p {
+  padding-left: 20px;
+}
+#client a {
+  display: block;
+}
+#client img {
+  max-width: 300px;
+}
+/* ======================================
+ *  16. Portfolio
+/* ====================================== */
+#portfolio {
+  padding: 80px 0px 40px 0px;
+}
+#portfolio .mix {
+  display: none;
+}
+#portfolio .block {
+  padding: 20px;
+}
+#portfolio .block a {
+  height: 100px;
+  display: inline-block;
+}
+#portfolio .block a img {
+  max-height: 100px;
+}
+/* ======================================
+ *  Tools
+/* ====================================== */
+#tools {
+  padding: 80px 0px 40px 0px;
+  border-bottom: 1px solid #F1EBEB;
+}
+#tools .mix {
+  display: none;
+  margin-bottom: 20px;
+}
+#tools .block {
+  padding: 20px;
+}
+#tools .block img {
+  height: 50px;
+}
+/* ======================================
+ *  11. About
+/* ====================================== */
+#about {
+  padding: 80px 0px 0px 0px;
+}
+.number {
+  color: #cccccc;
+  font-family: 'Poppins', arial, sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  margin-right: 10px;
+}
+/* ======================================
+ *  12. Introduction
+/* ====================================== */
+#introduction {
+  padding: 40px 0px 40px 0px;
+  border-bottom: 1px solid #F1EBEB;
+}
+.profile img {
+  text-align: center;
+  height: 500px;
+}
+.download-cv a {
+  background-color: #111111;
+  border-radius: 1px;
+  color: #ffffff !important;
+  display: inline-block;
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin: 14px 0;
+  padding: 10px 30px;
+  transition: all 0.3s ease;
+}
+.download-cv a:hover,
+.download-cv a:focus {
+  background-color: #383535;
+}
+.info {
+  padding: 0px 0px 0px 15px;
+}
+.info li {
+  font-size: 14px;
+  font-weight: 400;
+}
+.item-filter ul {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+}
+.item-filter ul li {
+  border: 1px solid #E8E8E8;
+  color: #5A5252;
+  cursor: pointer;
+  padding: 5px 10px;
+  letter-spacing: 1px;
+  display: inline-block;
+}
+.item-filter ul .active {
+  border: 1px solid #FFFFFF;
+  background-color: #FB635B;
+  color: #FFFFFF;
+}
+.img-wrap {
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+  /* Internet Explorer 10 */
+  display: -ms-flexbox;
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  /* Firefox */
+  display: -moz-box;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+  /* Safari, Opera, and Chrome */
+  display: -webkit-box;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  /* W3C */
+  display: box;
+  box-pack: center;
+  box-align: center;
+}
